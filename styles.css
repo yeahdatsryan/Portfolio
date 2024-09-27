@@ -63,31 +63,80 @@ margin-left: 200px;
     font-size: 25px;
 }
 
-.gallery{
-    margin-top: 50px;
-    float: left;
-    padding-left: 30px;
-    width: 420px;
-    margin-bottom: 400px;
-}
-.gallery img{
-    filter: drop-shadow(6px 5px 4px #000);
-    width: 100%;
-    height: 250px;
-}
-.gallery-desc{
-    padding: 15px;
-    text-align: center;
-    background-color: azure;
-    font-size: 20px;
-    color: #000;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-#tittle{
-    display: inline-block;
+nav {
+    background: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+#nav-links {
+    display: flex;
+}
+
+#nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+#nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.midsection {
+    padding: 20px;
     text-align: center;
-    width: 100%;
-    font-size: 35px;  
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.column-services {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.gallery {
+    text-align: center;
+    margin: 20px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-desc {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
+
     
 }
 #Truck{

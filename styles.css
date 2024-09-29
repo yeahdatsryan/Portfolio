@@ -122,7 +122,7 @@ body {
     padding: 0;
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #white;
 }
 
 /* Header Styling */
@@ -138,7 +138,7 @@ body {
 
 #title {
     font-size: 2.5em;
-    color: #1e1e1e;
+    color: #white;
 }
 
 nav {

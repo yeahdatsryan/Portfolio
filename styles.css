@@ -201,13 +201,46 @@ footer {
          flex: 2;
  }
 
+/* About Page Specific Styles */
+#who-section, #what-section, .row {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background for sections */
+    border-radius: 10px; /* Rounded corners for better aesthetics */
+}
+
+#who-section h2, #what-section h2 {
+    color: #ff9800; /* Highlight color for headings */
+    font-size: 2em; /* Consistent heading size */
+}
+
+#who-section p, #what-section p {
+    font-size: 1.1em; /* Slightly larger text for better readability */
+    line-height: 1.5; /* More space between lines */
+    color: white; /* White text for contrast */
+}
+
 .social {
-    flex: 1; 
-    text-align: center; 
+    text-align: center;
+    margin-top: 20px; /* Space above the social links section */
 }
 
 .social h2 {
-     margin-bottom: 10px;
- }
-    
-        }
+    color: #ff9800; /* Highlight color for social section heading */
+}
+
+.social a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.5em; /* Larger font for better visibility */
+}
+
+.social a:hover {
+    color: #ff9800; /* Change color on hover for better interaction */
+}
+
+footer {
+    margin-top: 30px; /* Space above the footer */
+    padding: 20px; /* Adjust padding for better layout */
+}
+

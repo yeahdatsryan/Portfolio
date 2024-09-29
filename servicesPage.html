@@ -4,51 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haulway Transport - Services</title>
+    <style>
+        body {
+            background-image: url('try 1.jpeg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: aliceblue;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        h1 {
+            font-family: 'Broncos', sans-serif;
+            font-size: 48px;
+            margin: 10px 0;
+        }
+
+        nav {
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        nav a {
+            color: aliceblue;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 20px;
+        }
+
+        main {
+            padding: 40px 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin: 0 20px;
+        }
+
+        h2 {
+            color: #ffcc00;
+            font-size: 36px;
+            margin-bottom: 40px;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        h3 {
+            font-size: 28px;
+            margin: 20px 0;
+            text-shadow: 1px 1px 3px #000000;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        ul {
+            color: aliceblue;
+            font-size: 18px;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        li:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        img {
+            max-width: 150px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
 </head>
-<body style="background-image: url('try 1.jpeg'); background-size: cover; background-attachment: fixed; background-repeat: no-repeat; margin: 0; font-family: Arial, sans-serif; color: aliceblue; text-align: center;">
+<body>
 
     <!-- Header Section -->
-    <header style="padding: 20px;">
-        <img src="Haul_transport_logo.png" alt="Haulway Transport Logo" style="max-width: 150px; display: block; margin: 0 auto;">
-        <h1 style="font-family: broncos; font-size: 48px; margin: 10px 0;">Haulway Transport</h1>
+    <header>
+        <img src="Haul_transport_logo.png" alt="Haulway Transport Logo">
+        <h1>Haulway Transport</h1>
         <nav>
-            <div style="display: inline-block; background-color: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 10px;">
-                <a href="index.html" style="color: aliceblue; text-decoration: none; margin-right: 15px; font-size: 20px;">Main</a>
-                <a href="aboutPage.html" style="color: aliceblue; text-decoration: none; margin-right: 15px; font-size: 20px;">About</a>
-                <a href="servicesPage.html" style="color: aliceblue; text-decoration: none; margin-right: 15px; font-size: 20px;">Services</a>
-                <a href="#contact" style="color: aliceblue; text-decoration: none; margin-right: 15px; font-size: 20px;">Contact</a>
-                <a href="careersPage.html" style="color: aliceblue; text-decoration: none; font-size: 20px;">Jobs</a>
-            </div>
+            <a href="index.html">Main</a>
+            <a href="aboutPage.html">About</a>
+            <a href="servicesPage.html">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="careersPage.html">Jobs</a>
         </nav>
     </header>
 
     <!-- Main Content -->
-    <main style="padding: 40px 20px;">
-        <h2 style="color: aliceblue; font-size: 36px; margin-bottom: 40px;">Our Services</h2>
+    <main>
+        <h2>Our Services</h2>
 
         <!-- Services Section -->
         <section>
-            <h3 style="font-size: 28px;">Tracking and Reporting</h3>
-            <p style="font-size: 18px;">Real-time tracking ensures you are always in the loop with the latest updates on your deliveries.</p>
+            <h3>Tracking and Reporting</h3>
+            <p>Real-time tracking ensures you are always in the loop with the latest updates on your deliveries.</p>
 
-            <h3 style="font-size: 28px;">Customer Support and Service Reliability</h3>
-            <p style="font-size: 18px;">We provide 24/7 customer support to ensure your experience with us is smooth and reliable.</p>
+            <h3>Customer Support and Service Reliability</h3>
+            <p>We provide 24/7 customer support to ensure your experience with us is smooth and reliable.</p>
 
-            <h3 style="font-size: 28px;">Logistics and Route Optimization</h3>
-            <p style="font-size: 18px;">Advanced route optimization systems allow us to deliver more efficiently and cost-effectively.</p>
+            <h3>Logistics and Route Optimization</h3>
+            <p>Advanced route optimization systems allow us to deliver more efficiently and cost-effectively.</p>
 
-            <h3 style="font-size: 28px;">Emergency Response and Contingency Planning</h3>
-            <p style="font-size: 18px;">Our emergency response systems are designed to handle unforeseen circumstances swiftly.</p>
+            <h3>Emergency Response and Contingency Planning</h3>
+            <p>Our emergency response systems are designed to handle unforeseen circumstances swiftly.</p>
 
-            <h3 style="font-size: 28px;">Customized Fleet Solutions</h3>
-            <p style="font-size: 18px;">We tailor our fleet to meet the specific needs of your logistics, ensuring optimal performance.</p>
+            <h3>Customized Fleet Solutions</h3>
+            <p>We tailor our fleet to meet the specific needs of your logistics, ensuring optimal performance.</p>
         </section>
 
         <!-- Pricing Section -->
         <section style="margin-top: 50px;">
-            <h2 style="color: aliceblue; font-size: 36px;">Realistic Pricing</h2>
-            <table border="1" cellpadding="10" cellspacing="0" style="width: 80%; margin: 0 auto; color: black; background-color: rgba(255, 255, 255, 0.9); border-collapse: collapse;">
-                <thead style="background-color: #333; color: white;">
+            <h2>Pricing Structure</h2>
+            <table>
+                <thead>
                     <tr>
                         <th>Mileage</th>
                         <th>Price</th>
@@ -57,42 +160,36 @@
                 <tbody>
                     <tr>
                         <td>1 - 50 miles (Local Delivery)</td>
-                        <td>$300 - $500</td>
+                        <td>$250 - $500</td>
                     </tr>
                     <tr>
-                        <td>51 - 150 miles (Short Haul)</td>
-                        <td>$600 - $1,200</td>
+                        <td>51 - 100 miles (Short Haul)</td>
+                        <td>$500 - $900</td>
                     </tr>
                     <tr>
-                        <td>151 - 300 miles (Medium Haul)</td>
-                        <td>$1,300 - $2,500</td>
+                        <td>101 - 200 miles (Medium Haul)</td>
+                        <td>$900 - $1,500</td>
                     </tr>
                     <tr>
-                        <td>301 - 500 miles (Long Haul)</td>
-                        <td>$2,600 - $4,000</td>
+                        <td>201 - 300 miles (Long Haul)</td>
+                        <td>$1,500 - $2,200</td>
                     </tr>
                     <tr>
-                        <td>500+ miles (Extended Haul)</td>
-                        <td>$4,000 + $1 per additional mile</td>
+                        <td>301+ miles (Extended Haul)</td>
+                        <td>$2,200 + $0.80 per additional mile</td>
                     </tr>
                 </tbody>
             </table>
 
-            <h2 style="color: aliceblue; font-size: 36px; margin-top: 40px;">Additional Services</h2>
-            <ul style="color: aliceblue; font-size: 18px; list-style-type: none; padding: 0;">
-                <li>Expedited Shipping: + $200</li>
-                <li>White-Glove Service: + $300</li>
-                <li>Storage & Handling: + $100 per day</li>
-                <li>Hazardous Materials: + $500</li>
+            <h2>Additional Services</h2>
+            <ul>
+                <li>Expedited Shipping: + $150</li>
+                <li>White-Glove Service: + $250</li>
+                <li>Storage & Handling: + $80 per day</li>
+                <li>Hazardous Materials: + $400</li>
             </ul>
         </section>
     </main>
 
-    <!-- Footer Section -->
-    <footer style="background-color: #333; color: white; text-align: center; padding: 20px; position: fixed; width: 100%; bottom: 0;">
-        <p>&copy; 2024 Haulway Transport. All rights reserved.</p>
-    </footer>
-
 </body>
 </html>
-

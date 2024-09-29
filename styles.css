@@ -115,3 +115,8 @@ li{
     height: auto;
     margin-left: 15%;
 }
+
+#logo{
+    text-align: center;
+     width: 50%;
+}

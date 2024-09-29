@@ -116,7 +116,40 @@ li{
     margin-left: 15%;
 }
 
-.logo{
+/* Style for the logo and title container */
+#logo-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-     width: 50%;
+    padding: 20px;
+}
+
+#logo {
+    width: 150px; 
+    margin-bottom: 10px; 
+}
+
+#title {
+    font-size: 2.5em; 
+    margin: 0;
+}
+
+/* Style for navigation */
+#nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    padding: 10px;
+}
+
+.text {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+}
+
+.text:hover {
+    color: gray; 
 }

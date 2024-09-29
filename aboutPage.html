@@ -3,12 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Haulway Transport</title>
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif; /* Main font */
+            background-color: #f8f9fa; /* Background color */
+            color: #333; /* Text color */
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #007bff; /* Primary color */
+            padding: 20px;
+            text-align: center;
+        }
+
+        #logo {
+            width: 150px; /* Logo size */
+            margin-bottom: 10px;
+        }
+
+        #title {
+            font-size: 2.5em;
+            margin: 0;
+            color: white; /* White title */
+        }
+
+        #nav-links {
+            margin-top: 10px;
+        }
+
+        #nav-links a {
+            color: white; /* White link text */
+            margin: 0 15px;
+            text-decoration: none; /* Remove underline */
+            font-size: 1.2em;
+            transition: color 0.3s ease; /* Hover transition */
+        }
+
+        #nav-links a:hover {
+            color: #ff9800; /* Hover highlight */
+        }
+
+        /* Main Section Styling */
+        main {
+            padding: 20px;
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: white; /* Section background */
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+        }
+
+        h2 {
+            color: #007bff; /* Heading color */
+        }
+
+        p {
+            line-height: 1.6; /* Readability */
+        }
+
+        /* Row Layout for About and Social Sections */
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .column-about {
+            flex: 2; /* About section takes more space */
+        }
+
+        .social {
+            flex: 1; /* Social section */
+            text-align: center; /* Center align */
+        }
+
+        .social h2 {
+            margin-bottom: 10px;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #007bff; /* Match footer to header */
+            color: white; /* Footer text color */
+            text-align: center;
+            padding: 20px;
+            position: relative; /* Footer position */
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
 
     <header>
+        <img src="Haul transport.png" alt="Haulway Transport Logo" id="logo"> <!-- Logo added -->
         <h1 id="title">Haulway Transport</h1>
         <nav id="nav-links">
             <a href="index.html" class="text">Main</a>
@@ -33,8 +130,8 @@
         <section class="row">
             <div class="column-about">
                 <h2>Why We Do It</h2>
-                <p>Our mission at Haulway Transport is driven by a commitment to sustainability and excellence. In addressing urgent environmental challenges, we focus on reducing carbon emissions with our eco-friendly trucking solutions. Our fleet includes electric, hybrid, and biodiesel trucks, which cut emissions and fuel use. Electric trucks have zero tailpipe emissions, hybrids reduce fuel consumption, and biodiesel offers a cleaner alternative to traditional diesel.</p>
-                <p>We combine this environmental focus with high efficiency and reliability, using advanced logistics management systems to optimize routes and ensure timely deliveries. Our cost-effective solutions, achieved through lower fuel and maintenance costs, are passed on to clients, helping them meet sustainability goals while managing expenses. We also strive to lead by example, encouraging industry-wide adoption of eco-friendly practices. By partnering with us, clients benefit from both superior service and a positive environmental impact, advancing sustainable logistics.</p>
+                <p>Our mission at Haulway Transport is driven by a commitment to sustainability and excellence. In addressing urgent environmental challenges, we focus on reducing carbon emissions with our eco-friendly trucking solutions. Our fleet includes trucks designed to cut emissions and fuel use. We combine this environmental focus with high efficiency and reliability, using advanced logistics management systems to optimize routes and ensure timely deliveries.</p>
+                <p>Our cost-effective solutions, achieved through lower fuel and maintenance costs, are passed on to clients, helping them meet sustainability goals while managing expenses. We strive to lead by example, encouraging industry-wide adoption of eco-friendly practices. By partnering with us, clients benefit from both superior service and a positive environmental impact, advancing sustainable logistics.</p>
             </div>
 
             <div class="social">
